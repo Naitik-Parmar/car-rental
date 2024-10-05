@@ -1,0 +1,216 @@
+/* updatecar.module.css */
+/* body {
+    background-color: #0a424a; /* Apply the background color to the entire page */
+  
+/* }
+.updateCarContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .buttonPrimary {
+    background-color: #28a745;
+  }
+  
+  .buttonPrimary:hover {
+    background-color: #218838;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .successMessage {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .updateCarContainer {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+   */
+
+
+   body {
+    background-color: #0a424a; /* Ensure the page background is dark */
+ 
+  }
+  
+  .updateCarContainer {
+    max-width: 500px; /* Reduced the container width */
+    margin: 50px auto; /* Added space from the top and centered it */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px; /* Slightly reduced font size */
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Styling for the input text boxes */
+  input[type="text"],
+  input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none; /* Removed border to make it blend in */
+    border-bottom: 1px solid #ccc; /* Light border at the bottom */
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f0f0f0; /* Subtle background color */
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    background-color: #e0e0e0; /* Highlight input box on focus */
+    outline: none; /* Removes the default focus border */
+  }
+  
+  /* Styling the textarea */
+  textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #0a424a; /* Added blue border to highlight textarea */
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+  }
+  
+  textarea:focus {
+    border-color: #0056b3; /* Darker border on focus */
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .buttonPrimary {
+    background-color: #28a745;
+  }
+  
+  .buttonPrimary:hover {
+    background-color: #218838;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .successMessage {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .updateCarContainer {
+      max-width: 100%; /* Ensures it takes full width on small screens */
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+  

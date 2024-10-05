@@ -1,0 +1,80 @@
+/* .my-bookings {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .booking-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-item:hover {
+    background-color: #f0f0f0;
+  }
+   */
+
+
+   /* .my-bookings {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .booking-item {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s;
+  }
+  
+  .booking-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  } */
+
+  .my-bookings {
+    padding: 20px;
+  }
+  
+  .booking-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: space-between; /* Add space between cards */
+  }
+  
+  .booking-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* 3 cards per row with space */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .booking-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  
+  button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
